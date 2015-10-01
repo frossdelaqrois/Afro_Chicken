@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 11708ff9e1920e2448ea72f2f511572c
+timeCreated: 1443739166
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: afrochicken_0
+    21300002: afrochicken_1
+    21300004: afrochicken_2
+    21300006: afrochicken_3
+    21300008: afrochicken_4
+    21300010: afrochicken_5
+    21300012: afrochicken_6
+    21300014: afrochicken_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: afrochicken_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 570
+        width: 305
+        height: 452
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: afrochicken_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 614
+        width: 306
+        height: 408
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: afrochicken_4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 188
+        width: 302
+        height: 409
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: afrochicken_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 131
+        width: 342
+        height: 408
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

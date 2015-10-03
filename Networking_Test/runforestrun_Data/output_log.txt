@@ -1,0 +1,91 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) Iris(TM) Pro Graphics 5200 (ID=0xd22)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.063 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Lain\Documents\Afro_Chicken\Networking_Test\runforestrun_Data\Managed\System.dll (this message is harmless)
+Update() was called by Unity. Scene is loaded. Let's connect to the Photon Master Server. Calling: PhotonNetwork.ConnectUsingSettings();
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1fa0 -> priority: 1 
+  Thread -> id: 1f5c -> priority: 1 
+OnConnectedToMaster() was called by PUN. Now this client is connected and could join a room. Calling: PhotonNetwork.JoinRandomRoom();
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Operation failed: OperationResponse 225: ReturnCode: 32760 (No match found). Parameters: {} Server: MasterServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnPhotonRandomJoinFailed() was called by PUN. No random room available, so we create one. Calling: PhotonNetwork.CreateRoom(null, new RoomOptions() {maxPlayers = 4}, null);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnJoinedRoom() called by PUN. Now this client is in a room. From here on, your game would be running. For reference, all callbacks are listed in enum: PhotonNetworkingMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Mobile Intel(R) 4 Series Express Chipset Family (ID=0x2a42)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading \\steam\Networking_Test\runforestrun_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  4.705 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: \\steam\Networking_Test\runforestrun_Data\Managed\System.dll (this message is harmless)
+Update() was called by Unity. Scene is loaded. Let's connect to the Photon Master Server. Calling: PhotonNetwork.ConnectUsingSettings();
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1944 -> priority: 1 
+OnConnectedToMaster() was called by PUN. Now this client is connected and could join a room. Calling: PhotonNetwork.JoinRandomRoom();
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnJoinedRoom() called by PUN. Now this client is in a room. From here on, your game would be running. For reference, all callbacks are listed in enum: PhotonNetworkingMessage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+

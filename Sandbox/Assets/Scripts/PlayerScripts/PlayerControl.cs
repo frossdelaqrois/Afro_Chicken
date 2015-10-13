@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerControl : MonoBehaviour
 {
+   
 
 	public float walkSpeed = 0.15f;
 	public float runSpeed = 1.0f;
@@ -47,6 +48,8 @@ public class PlayerControl : MonoBehaviour
 	private float distToGround;
 	private float sprintFactor;
 
+
+
 	void Awake()
 	{
 		anim = GetComponent<Animator> ();
@@ -68,18 +71,22 @@ public class PlayerControl : MonoBehaviour
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
 	}
 
-	void Update()
-	{
-		// fly
-		if(Input.GetButtonDown ("Fly"))
-			fly = !fly;
-		aim = Input.GetButton("Aim");
-		h = Input.GetAxis("Horizontal");
-		v = Input.GetAxis("Vertical");
-		run = Input.GetButton ("Run");
-		sprint = Input.GetButton ("Sprint");
-		isMoving = Mathf.Abs(h) > 0.1 || Mathf.Abs(v) > 0.1;
-	}
+    void Update()
+    {
+     
+
+        // fly
+        if (Input.GetButtonDown("Fly"))
+            fly = !fly;
+        aim = Input.GetButton("Aim");
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
+        run = Input.GetButton("Run");
+        sprint = Input.GetButton("Sprint");
+        isMoving = Mathf.Abs(h) > 0.1 || Mathf.Abs(v) > 0.1;
+    }
+
+  
 
 	void FixedUpdate()
 	{

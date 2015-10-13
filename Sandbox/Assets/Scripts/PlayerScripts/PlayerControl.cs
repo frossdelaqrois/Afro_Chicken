@@ -43,7 +43,7 @@ public class PlayerControl : MonoBehaviour
 	private bool isMoving;
 
 	// fly
-	private bool fly = false;
+	private bool fly = true;
 	private float distToGround;
 	private float sprintFactor;
 

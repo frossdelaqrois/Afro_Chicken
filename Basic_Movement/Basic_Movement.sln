@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{2523DF5E-6F74-524C-CA03-0D1895E7684C}") = "Basic_Movement", "Assembly-CSharp-firstpass.csproj", "{CE15E4EE-7D61-E228-F8A6-582E0222B7F4}"
+EndProject
 Project("{2523DF5E-6F74-524C-CA03-0D1895E7684C}") = "Basic_Movement", "Assembly-CSharp.csproj", "{12A109FB-1AA1-FB39-84E7-DAC096D3A364}"
 EndProject
 Project("{2523DF5E-6F74-524C-CA03-0D1895E7684C}") = "Basic_Movement", "Assembly-CSharp-Editor.csproj", "{48510A00-861A-0BA6-534F-1A5A5B277E4C}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE15E4EE-7D61-E228-F8A6-582E0222B7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE15E4EE-7D61-E228-F8A6-582E0222B7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE15E4EE-7D61-E228-F8A6-582E0222B7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE15E4EE-7D61-E228-F8A6-582E0222B7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12A109FB-1AA1-FB39-84E7-DAC096D3A364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12A109FB-1AA1-FB39-84E7-DAC096D3A364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A109FB-1AA1-FB39-84E7-DAC096D3A364}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-												GlobalSection(MonoDevelopProperties) = preSolution
+															GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
